@@ -1,0 +1,32 @@
+{
+  "name": "anginx3",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./app/bin/www",
+    "debug": "DEBUG=demo* node ./app/bin/www",
+    "build": "npm install",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "compression": "latest",
+    "cookie-parser": "latest",
+    "debug": "^4.3.1",
+    "dotenv": "latest",
+    "express": "latest",
+    "express-session": "latest",
+    "http-errors": "^1.8.0",
+    "i18n": "^0.15.0",
+    "jsdom": "latest",
+    "lodash": "latest",
+    "memorystore": "latest",
+    "morgan": "latest",
+    "pug": "latest",
+    "socket.io": "latest"
+  },
+  "devDependencies": {
+    "chai": "latest",
+    "mocha": "latest",
+    "supertest": "latest"
+  }
+}
